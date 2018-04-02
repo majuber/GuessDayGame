@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "96351ec4f64feee64ba1ca9fc11e4e60"
+build_time: [1522347442, 594339000]
+inputs:
+  "/Users/jabdul/Desktop/Generate Random Date/Generate Random Date/ViewController.swift": [1522347442, 0]
+  "/Users/jabdul/Desktop/Generate Random Date/Generate Random Date/WeekDayCell.swift": [1522346878, 0]
+  "/Users/jabdul/Desktop/Generate Random Date/Generate Random Date/AppDelegate.swift": [1522300069, 0]

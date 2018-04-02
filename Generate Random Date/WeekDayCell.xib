@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Futura.ttc">
+            <string>Futura-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="WeekDayCell" id="ugi-TD-DtK" customClass="WeekDayCell" customModule="Generate_Random_Date" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="119"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="180" height="119"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="cBh-he-BUd">
+                        <rect key="frame" x="0.0" y="0.0" width="180" height="119"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="148-nP-vrF">
+                                <rect key="frame" x="70" y="48.5" width="42" height="22.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="148-nP-vrF" firstAttribute="centerY" secondItem="cBh-he-BUd" secondAttribute="centerY" id="4nG-nI-fdy"/>
+                            <constraint firstItem="148-nP-vrF" firstAttribute="centerX" secondItem="cBh-he-BUd" secondAttribute="centerX" id="FaZ-P0-4J0"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="cBh-he-BUd" secondAttribute="bottom" id="7Fu-8u-7JX"/>
+                <constraint firstItem="cBh-he-BUd" firstAttribute="leading" secondItem="ugi-TD-DtK" secondAttribute="leading" id="Bwh-VW-d8L"/>
+                <constraint firstItem="cBh-he-BUd" firstAttribute="top" secondItem="ugi-TD-DtK" secondAttribute="top" id="lkT-MP-GU9"/>
+                <constraint firstAttribute="trailing" secondItem="cBh-he-BUd" secondAttribute="trailing" id="t1f-HO-Ms0"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="xdz-FY-DyQ"/>
+            <size key="customSize" width="180" height="119"/>
+            <connections>
+                <outlet property="weekDayLabel" destination="148-nP-vrF" id="EyI-zr-T64"/>
+            </connections>
+            <point key="canvasLocation" x="-43" y="18"/>
+        </collectionViewCell>
+    </objects>
+</document>
