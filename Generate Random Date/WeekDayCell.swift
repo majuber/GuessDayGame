@@ -1,10 +1,7 @@
 //
 //  DateCollectionViewCell.swift
 //  Generate Random Date
-//
-//  Created by Palavesakumar Mahalingam on 29/03/18.
-//  Copyright © 2018 Opteamix. All rights reserved.
-//
+
 
 import UIKit
 
